@@ -11,21 +11,18 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        getCurrentTime()
+        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector:#selector(self.tick) , userInfo: nil, repeats: true)
         // Do any additional setup after loading the view.
     }
-    
-    // Clock Button
-    @IBOutlet weak var clockButtonLabel: UIButton!
+    // Clock
+    @IBOutlet weak var clockLabel: UILabel!
     var timer = Timer()
-    private func getCurrentTime() {
-        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector:#selector(self.clockButton(_:)) , userInfo: nil, repeats: true)
-    }
-    @IBAction func clockButton(_ sender: UIButton) {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "hh:mm a"
-        clockButtonLabel.setTitle(formatter.string(from: Date()), for: .normal)
+    
+    
+    @objc func tick() {
+        clockLabel?.text = DateFormatter.localizedString(from: NSDate() as Date, dateStyle: .none, timeStyle: .medium)
     }
     
 }
+
 
