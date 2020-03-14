@@ -1,2 +1,4 @@
 # ProjectTODO
-A reminder / to-do application project for Apple
+# Status: We'll start soon.
+
+A reminder / to-do application project for class.
