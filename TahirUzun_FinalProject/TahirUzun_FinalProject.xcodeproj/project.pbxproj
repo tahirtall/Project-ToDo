@@ -20,6 +20,10 @@
 		D91648FD241D27C0006A9E46 /* minimalist9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D91648FC241D27C0006A9E46 /* minimalist9.jpg */; };
 		D91648FF241D2829006A9E46 /* minimalist10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D91648FE241D2829006A9E46 /* minimalist10.jpg */; };
 		D9164901241D2F2F006A9E46 /* minimalist1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9164900241D2F2F006A9E46 /* minimalist1.jpg */; };
+		D98F4D832420917A00C3DC6F /* TimerSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F4D822420917A00C3DC6F /* TimerSelectViewController.swift */; };
+		D98F4D852420ABE400C3DC6F /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F4D842420ABE400C3DC6F /* AlarmViewController.swift */; };
+		D9DD7E39241DA6EA003A216F /* minimalist11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DD7E38241DA6EA003A216F /* minimalist11.jpg */; };
+		D9DD7E3B241DA9B4003A216F /* minimalist12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DD7E3A241DA9B4003A216F /* minimalist12.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		D91648FC241D27C0006A9E46 /* minimalist9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = minimalist9.jpg; path = ../../../images/minimalist9.jpg; sourceTree = "<group>"; };
 		D91648FE241D2829006A9E46 /* minimalist10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = minimalist10.jpg; path = ../../../images/minimalist10.jpg; sourceTree = "<group>"; };
 		D9164900241D2F2F006A9E46 /* minimalist1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = minimalist1.jpg; path = ../../../images/minimalist1.jpg; sourceTree = "<group>"; };
+		D98F4D822420917A00C3DC6F /* TimerSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSelectViewController.swift; sourceTree = "<group>"; };
+		D98F4D842420ABE400C3DC6F /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		D9DD7E38241DA6EA003A216F /* minimalist11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = minimalist11.jpg; path = ../../../images/minimalist11.jpg; sourceTree = "<group>"; };
+		D9DD7E3A241DA9B4003A216F /* minimalist12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = minimalist12.jpg; path = ../../../images/minimalist12.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,8 @@
 				D91648DB241D0270006A9E46 /* AppDelegate.swift */,
 				D91648DD241D0270006A9E46 /* SceneDelegate.swift */,
 				D91648DF241D0270006A9E46 /* ViewController.swift */,
+				D98F4D842420ABE400C3DC6F /* AlarmViewController.swift */,
+				D98F4D822420917A00C3DC6F /* TimerSelectViewController.swift */,
 				D91648E1241D0270006A9E46 /* Main.storyboard */,
 				D91648E4241D0271006A9E46 /* Assets.xcassets */,
 				D91648E6241D0271006A9E46 /* LaunchScreen.storyboard */,
@@ -85,6 +95,8 @@
 		D91648EF241D0645006A9E46 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D9DD7E3A241DA9B4003A216F /* minimalist12.jpg */,
+				D9DD7E38241DA6EA003A216F /* minimalist11.jpg */,
 				D9164900241D2F2F006A9E46 /* minimalist1.jpg */,
 				D91648FE241D2829006A9E46 /* minimalist10.jpg */,
 				D91648FC241D27C0006A9E46 /* minimalist9.jpg */,
@@ -155,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D91648FB241D26CA006A9E46 /* minimalist.jpg in Resources */,
+				D9DD7E3B241DA9B4003A216F /* minimalist12.jpg in Resources */,
+				D9DD7E39241DA6EA003A216F /* minimalist11.jpg in Resources */,
 				D91648E8241D0271006A9E46 /* LaunchScreen.storyboard in Resources */,
 				D91648F7241D220C006A9E46 /* minimalist8.jpg in Resources */,
 				D91648F3241D1DAE006A9E46 /* minimalist6.jpg in Resources */,
@@ -174,8 +188,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98F4D852420ABE400C3DC6F /* AlarmViewController.swift in Sources */,
 				D91648E0241D0270006A9E46 /* ViewController.swift in Sources */,
 				D91648DC241D0270006A9E46 /* AppDelegate.swift in Sources */,
+				D98F4D832420917A00C3DC6F /* TimerSelectViewController.swift in Sources */,
 				D91648DE241D0270006A9E46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
